@@ -13,7 +13,7 @@ export const CONTENT = {
     cta: "Request a Quote",
   },
   hero: {
-    heroImage: "/Fence.jpg",
+    heroImage: "/Bonilla.jpg",
     stats: {
       projects: "800+ Fences Built",
       licensed: "Licensed & Insured",
@@ -105,7 +105,8 @@ export const CONTENT = {
   portfolio: {
     label: "Recent Work",
     title: "Our Projects",
-    subtitle: "A selection of fence and gate installations completed across the region.",
+    subtitle:
+      "A selection of fence and gate installations completed across the region.",
     projects: [
       {
         id: "port-1",
@@ -259,7 +260,14 @@ export const CONTENT = {
         {
           key: "material",
           text: "What type of fence are you looking for?",
-          options: ["Wood (Cedar / Pine)", "Chain Link", "Ornamental Iron", "Aluminum", "Vinyl", "Not Sure"],
+          options: [
+            "Wood (Cedar / Pine)",
+            "Chain Link",
+            "Ornamental Iron",
+            "Aluminum",
+            "Vinyl",
+            "Not Sure",
+          ],
           type: "choice",
         },
         {
@@ -297,13 +305,23 @@ export const CONTENT = {
         {
           key: "material",
           text: "What is your current fence material?",
-          options: ["Wood", "Chain Link", "Ornamental Iron / Aluminum", "Vinyl", "Not sure"],
+          options: [
+            "Wood",
+            "Chain Link",
+            "Ornamental Iron / Aluminum",
+            "Vinyl",
+            "Not sure",
+          ],
           type: "choice",
         },
         {
           key: "scope",
           text: "How much of the fence needs repair?",
-          options: ["A few boards or posts", "One section (up to 50 ft)", "Large portion of the fence"],
+          options: [
+            "A few boards or posts",
+            "One section (up to 50 ft)",
+            "Large portion of the fence",
+          ],
           type: "choice",
         },
       ],
@@ -322,13 +340,23 @@ export const CONTENT = {
         {
           key: "material",
           text: "What material for the gate?",
-          options: ["Wood", "Ornamental Iron", "Aluminum", "Chain Link", "Match existing fence"],
+          options: [
+            "Wood",
+            "Ornamental Iron",
+            "Aluminum",
+            "Chain Link",
+            "Match existing fence",
+          ],
           type: "choice",
         },
         {
           key: "scope",
           text: "Is this new installation or replacement?",
-          options: ["New installation", "Replace existing gate", "Repair existing gate"],
+          options: [
+            "New installation",
+            "Replace existing gate",
+            "Repair existing gate",
+          ],
           type: "choice",
         },
       ],
@@ -336,19 +364,34 @@ export const CONTENT = {
         {
           key: "material",
           text: "What type of fence needs to be removed?",
-          options: ["Wood", "Chain Link", "Ornamental Iron / Aluminum", "Vinyl", "Mixed / not sure"],
+          options: [
+            "Wood",
+            "Chain Link",
+            "Ornamental Iron / Aluminum",
+            "Vinyl",
+            "Mixed / not sure",
+          ],
           type: "choice",
         },
         {
           key: "footage",
           text: "Approximate linear footage to remove?",
-          options: ["Under 100 ft", "100–250 ft", "250–500 ft", "500 ft or more"],
+          options: [
+            "Under 100 ft",
+            "100–250 ft",
+            "250–500 ft",
+            "500 ft or more",
+          ],
           type: "choice",
         },
         {
           key: "replacement",
           text: "Will you need a new fence installed after removal?",
-          options: ["Yes — same area", "Yes — different area", "No, removal only"],
+          options: [
+            "Yes — same area",
+            "Yes — different area",
+            "No, removal only",
+          ],
           type: "choice",
         },
       ],
@@ -383,7 +426,8 @@ export const CONTENT = {
       {
         key: "notes",
         text: "Any additional details you'd like us to know?",
-        placeholder: "Optional — lot size, HOA requirements, slope or terrain notes",
+        placeholder:
+          "Optional — lot size, HOA requirements, slope or terrain notes",
         type: "text-optional",
       },
       {
